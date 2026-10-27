@@ -1,0 +1,620 @@
+{
+ "entryUrl": "https://futuristic-space-74.aura.build/",
+ "capturedAt": "2026-10-27T19:56:53+00:00",
+ "indexHtml": {
+  "kind": "arquivo",
+  "description": "site vivo aberto com duplo clique (file://): um runtime faz o papel do Service Worker; imagens e vídeos que a página só exibe são lidos de assets/, o resto (CSS, JS, fontes, dados, imagens de WebGL) vai embutido no index.html"
+ },
+ "files": [
+  {
+   "url": "https://futuristic-space-74.aura.build/favicon.ico",
+   "file": "assets/futuristic-space-74.aura.build/favicon.ico",
+   "type": "image/vnd.microsoft.icon",
+   "resourceType": "other",
+   "size": 696,
+   "status": 200,
+   "party": "first",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://futuristic-space-74.aura.build/",
+   "file": "assets/futuristic-space-74.aura.build/index.html",
+   "type": "text/html",
+   "resourceType": "document",
+   "size": 99227,
+   "status": 200,
+   "party": "first",
+   "passes": [
+    "desktop",
+    "mobile"
+   ]
+  },
+  {
+   "url": "https://www.aura.build/FxFilter.js",
+   "file": "assets/www.aura.build/FxFilter.js",
+   "type": "application/javascript",
+   "resourceType": "script",
+   "size": 20821,
+   "status": 200,
+   "party": "first",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "role": "site"
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=magnifer-linear",
+   "file": "assets/api.iconify.design/solar__q22978f65.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 348,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=box-minimalistic-linear",
+   "file": "assets/api.iconify.design/solar__q2c8e4a54.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 854,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=arrow-right-linear%2Cmenu-dots-square-linear",
+   "file": "assets/api.iconify.design/solar__q33beb0c7.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 756,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=atom-linear%2Ccheck-circle-linear%2Cclock-circle-linear%2Ccpu-bolt-linear%2Cfile-download-linear%2Cgraph-up-linear%2Clayers-minimalistic-linear%2Cmap-point-linear%2Crocket-2-linear%2Cruler-angular-linear%2Cscale-linear%2Cshield-check-linear%2Cshield-star-linear%2Cshield-warning-linear%2Ctest-tube-linear%2Ctree-linear%2Cumbrella-linear%2Cuser-heart-linear",
+   "file": "assets/api.iconify.design/solar__q5b981eb6.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 13730,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=bolt-circle-linear",
+   "file": "assets/api.iconify.design/solar__q8613cb5f.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 1134,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=planet-bold-duotone",
+   "file": "assets/api.iconify.design/solar__qd007b457.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 1437,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.tailwindcss.com/3.4.17",
+   "file": "assets/cdn.tailwindcss.com/3.4.17.js",
+   "type": "text/javascript",
+   "resourceType": "script",
+   "size": 407279,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "library": {
+    "name": "tailwindcss (Play CDN)",
+    "version": "3.4.17"
+   },
+   "role": "library"
+  },
+  {
+   "url": "https://code.iconify.design/3/3.1.0/iconify.min.js",
+   "file": "assets/code.iconify.design/3/3.1.0/iconify.min.js",
+   "type": "application/javascript",
+   "resourceType": "script",
+   "size": 26132,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "library": {
+    "name": "iconify",
+    "version": null
+   },
+   "role": "library"
+  },
+  {
+   "url": "https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js",
+   "file": "assets/code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js",
+   "type": "application/javascript",
+   "resourceType": "script",
+   "size": 22003,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "library": {
+    "name": "iconify",
+    "version": "1.0.7"
+   },
+   "role": "library"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..800&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q007694ca.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 1290,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q169f4fe6.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 6335,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q1943cfff.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 28360,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q1f7e978b.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 8310,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q2aa424eb.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 10210,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q2cab8187.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 11090,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q4b7e9c7d.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 905,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q527347a8.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 10152,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q56d7aee3.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 7584,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q5ccbb74d.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 6525,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q60e2274a.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 7655,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q73f83475.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 8924,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q7e251af0.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 11082,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q8921a011.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 4405,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q8b13e5bf.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 9235,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__q8f0fa052.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 2966,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qa4cd1a53.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 9130,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qb51c7b40.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 28095,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Bricolage+Grotesque:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qc447aea1.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 24420,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qc7bce6e7.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 6143,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qdc6068da.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 2562,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qed4d15e6.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 13074,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qf2d2b900.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 9580,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/bricolagegrotesque/v9/3y9H6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiawA1XphjhQYg.woff2",
+   "file": "assets/fonts.gstatic.com/s/bricolagegrotesque/v9/3y9H6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiawA1XphjhQYg.woff2",
+   "type": "font/woff2",
+   "resourceType": "font",
+   "size": 41236,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+   "file": "assets/fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+   "type": "font/woff2",
+   "resourceType": "font",
+   "size": 48432,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/25904405-aa15-491b-9a03-de5fc75f18b3_3840w.webp",
+   "file": "assets/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/25904405-aa15-491b-9a03-de5fc75f18b3_3840w.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 293964,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/44d41d4e-32d5-4432-bf2b-95b01b1df21f_320w.webp",
+   "file": "assets/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/44d41d4e-32d5-4432-bf2b-95b01b1df21f_320w.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 3644,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/68494c15-da1d-47aa-a9ac-b6ee8c9286cc_800w.webp",
+   "file": "assets/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/68494c15-da1d-47aa-a9ac-b6ee8c9286cc_800w.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 81254,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/7de1229a-6a54-423d-a41c-2377d871bf2c_320w.jpg",
+   "file": "assets/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/7de1229a-6a54-423d-a41c-2377d871bf2c_320w.jpg",
+   "type": "image/jpeg",
+   "resourceType": "image",
+   "size": 4293,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/a5122f84-43cb-4170-94c3-aded75f0d3ed_320w.webp",
+   "file": "assets/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/a5122f84-43cb-4170-94c3-aded75f0d3ed_320w.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 3230,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/ea262fd9-14f0-4917-be69-86fd3b302ccd_1600w.webp",
+   "file": "assets/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/ea262fd9-14f0-4917-be69-86fd3b302ccd_1600w.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 38760,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/ee3841e8-ef6d-45b3-9f33-9df069f9708a_1600w.webp",
+   "file": "assets/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/ee3841e8-ef6d-45b3-9f33-9df069f9708a_1600w.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 142272,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  }
+ ]
+}
