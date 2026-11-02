@@ -104,6 +104,22 @@
           <div class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/5 to-transparent z-0 pointer-events-none animate-shimmer-effect"></div>
 
           <div class="relative z-10">
+            <!-- Header do Card com Foto de Perfil & Status -->
+            <div class="flex items-center gap-4 mb-5">
+              <div class="relative shrink-0">
+                <img src="assets/images/arthur-kochi.jpg" alt="Arthur Kochi Suzuki" class="w-16 h-16 md:w-20 md:h-20 rounded-2xl object-cover border-2 border-emerald-500/40 shadow-[0_0_20px_rgba(16,185,129,0.3)]">
+                <span class="absolute -bottom-1 -right-1 w-3.5 h-3.5 rounded-full bg-emerald-500 border-2 border-neutral-950 animate-pulse"></span>
+              </div>
+              <div>
+                <span class="text-[11px] md:text-xs font-mono uppercase tracking-wider text-emerald-400 block font-medium">
+                  Estudante de IA · FECAP
+                </span>
+                <span class="text-sm md:text-base font-bricolage text-white font-medium block">
+                  Arthur Kochi Suzuki
+                </span>
+              </div>
+            </div>
+
             <p class="text-base sm:text-lg md:text-xl text-white font-light leading-relaxed mb-6 md:mb-8 antialiased drop-shadow-md">
               Olá, eu sou Arthur Kochi Suzuki estudante do curso técnico de Inteligência Artificial do colégio FECAP - Fundação Escola de Comércio Álvares Penteado.
             </p>
@@ -120,7 +136,7 @@
                   <span class="block text-[10px] uppercase tracking-widest text-white/50 mb-1">
                     Certificados
                   </span>
-                  <span class="text-2xl font-bricolage text-emerald-400">08</span>
+                  <span class="text-2xl font-bricolage text-emerald-400">04</span>
                 </div>
               </div>
 
@@ -133,7 +149,7 @@
                 </a>
                 <a href="#certificados" class="group flex items-center justify-between w-full p-1 border-b border-white/20 hover:border-emerald-400 text-white/80 hover:text-white transition-colors pb-2">
                   <span class="text-sm font-medium tracking-wide text-emerald-400">
-                    Ver meus 8 certificados
+                    Ver meus 4 certificados
                   </span>
                   <iconify-icon icon="solar:arrow-right-linear" class="text-emerald-400 group-hover:translate-x-1 transition-transform" width="18"></iconify-icon>
                 </a>
@@ -169,103 +185,103 @@
           </h1>
         </div>
 
-        <!-- Right Column: Competências Linguísticas (Invertido: agora na coluna direita inferior) -->
-        <div class="md:col-span-5 md:col-start-8 flex flex-col justify-end pb-4 md:pb-8 relative z-20">
-          <div class="flex flex-col gap-2.5 animate-slide-up [animation-delay:1.8s] opacity-0 w-full">
+        <!-- Right Column: Competências Linguísticas (Compacto e ajustado na coluna 9 para não cobrir o nome) -->
+        <div class="md:col-span-4 md:col-start-9 flex flex-col justify-end pb-4 md:pb-8 relative z-20">
+          <div class="flex flex-col gap-2 animate-slide-up [animation-delay:1.8s] opacity-0 w-full max-w-[23rem] ml-auto">
             <!-- Badge Superior (Indicador pulsante) -->
-            <div class="flex items-center gap-3 text-xs md:text-sm uppercase tracking-widest text-white/70 font-mono">
-              <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_12px_rgba(16,185,129,0.9)]"></span>
+            <div class="flex items-center gap-2.5 text-xs uppercase tracking-widest text-white/70 font-mono">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.9)]"></span>
               <span class="font-semibold text-white">Competências Linguísticas</span>
               <span class="text-white/30">·</span>
               <span class="text-emerald-400 font-medium">5 Idiomas</span>
             </div>
 
-            <!-- Quadro Ampliado (Com efeito glassmorphism e borda suave) -->
-            <div class="[--fx-filter:blur(12px)_liquid-glass(5,10)_saturate(1.25)_noise(0.5,1,0)] bg-neutral-950/80 w-full border-white/15 border rounded-3xl p-5 md:p-6 shadow-2xl backdrop-blur-xl">
-              <!-- Cabeçalho do Card (Fonte dobrada) -->
-              <div class="flex items-center justify-between mb-2.5 pb-2.5 border-b border-white/10">
-                <div class="flex items-center gap-3">
-                  <iconify-icon icon="solar:global-linear" width="24" class="text-emerald-400"></iconify-icon>
+            <!-- Quadro Compacto (Com efeito glassmorphism e borda suave) -->
+            <div class="[--fx-filter:blur(12px)_liquid-glass(5,10)_saturate(1.25)_noise(0.5,1,0)] bg-neutral-950/85 w-full border-white/15 border rounded-2xl p-3.5 md:p-4 shadow-2xl backdrop-blur-xl">
+              <!-- Cabeçalho do Card -->
+              <div class="flex items-center justify-between mb-2 pb-2 border-b border-white/10">
+                <div class="flex items-center gap-2">
+                  <iconify-icon icon="solar:global-linear" width="16" class="text-emerald-400"></iconify-icon>
                   <div>
-                    <h3 class="text-lg md:text-xl text-white font-bricolage font-medium leading-none">Idiomas</h3>
-                    <span class="text-xs text-white/50 font-mono">Formação & Comunicação</span>
+                    <h3 class="text-sm md:text-base text-white font-bricolage font-semibold leading-none">Idiomas</h3>
+                    <span class="text-[10px] md:text-xs text-white/50 font-mono">Formação & Comunicação</span>
                   </div>
                 </div>
-                <span class="text-xs md:text-sm text-emerald-400 font-mono bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/25 font-medium">
+                <span class="text-[10px] md:text-xs text-emerald-400 font-mono bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/25 font-medium">
                   Multilíngue (5)
                 </span>
               </div>
 
               <!-- Barra decorativa com gradiente moderno -->
-              <div class="w-full bg-white/10 h-1.5 rounded-full overflow-hidden mb-3">
-                <div class="bg-gradient-to-r from-emerald-500 via-teal-400 to-blue-500 w-full h-full shadow-[0_0_12px_rgba(16,185,129,0.5)]"></div>
+              <div class="w-full bg-white/10 h-1 rounded-full overflow-hidden mb-2">
+                <div class="bg-gradient-to-r from-emerald-500 via-teal-400 to-blue-500 w-full h-full shadow-[0_0_10px_rgba(16,185,129,0.5)]"></div>
               </div>
 
-              <!-- Cabeçalho da Lista (Fontes dobradas) -->
-              <div class="flex items-center justify-between text-xs md:text-sm text-white/50 font-mono uppercase tracking-wider pb-2 border-b border-white/10">
+              <!-- Cabeçalho da Lista -->
+              <div class="flex items-center justify-between text-[10px] md:text-xs text-white/50 font-mono uppercase tracking-wider pb-1.5 border-b border-white/10">
                 <span>Idioma</span>
                 <span class="text-right">Nível & Escola</span>
               </div>
 
-              <!-- Lista de Idiomas (Formato de Lista) -->
+              <!-- Lista de Idiomas (Formato de Lista Compacta) -->
               <div class="divide-y divide-white/5">
                 <!-- 1. Português -->
-                <div class="py-2.5 flex items-center justify-between gap-4 group/item">
-                  <div class="flex items-center gap-3">
-                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shrink-0 shadow-[0_0_8px_rgba(52,211,153,0.6)]"></span>
-                    <span class="text-lg md:text-xl text-white font-bricolage font-semibold group-hover/item:text-emerald-300 transition-colors">Português</span>
+                <div class="py-1.5 flex items-center justify-between gap-3 group/item">
+                  <div class="flex items-center gap-2.5">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 shrink-0 shadow-[0_0_6px_rgba(52,211,153,0.6)]"></span>
+                    <span class="text-sm md:text-base text-white font-bricolage font-semibold group-hover/item:text-emerald-300 transition-colors">Português</span>
                   </div>
                   <div class="text-right font-mono">
-                    <span class="text-sm md:text-base text-emerald-400 font-semibold block">Fluente Nativo</span>
-                    <span class="text-xs md:text-sm text-white/50 block">Língua Materna</span>
+                    <span class="text-xs md:text-sm text-emerald-400 font-semibold block">Fluente Nativo</span>
+                    <span class="text-[10px] md:text-xs text-white/50 block">Língua Materna</span>
                   </div>
                 </div>
 
                 <!-- 2. Inglês -->
-                <div class="py-2.5 flex items-center justify-between gap-4 group/item">
-                  <div class="flex items-center gap-3">
-                    <span class="w-2.5 h-2.5 rounded-full bg-blue-400 shrink-0 shadow-[0_0_8px_rgba(96,165,250,0.6)]"></span>
-                    <span class="text-lg md:text-xl text-white font-bricolage font-semibold group-hover/item:text-blue-300 transition-colors">Inglês</span>
+                <div class="py-1.5 flex items-center justify-between gap-3 group/item">
+                  <div class="flex items-center gap-2.5">
+                    <span class="w-2 h-2 rounded-full bg-blue-400 shrink-0 shadow-[0_0_6px_rgba(96,165,250,0.6)]"></span>
+                    <span class="text-sm md:text-base text-white font-bricolage font-semibold group-hover/item:text-blue-300 transition-colors">Inglês</span>
                   </div>
                   <div class="text-right font-mono">
-                    <span class="text-sm md:text-base text-white/95 font-semibold block">Intermediário</span>
-                    <span class="text-xs md:text-sm text-white/50 block">Cel-Lep</span>
+                    <span class="text-xs md:text-sm text-white/95 font-semibold block">Intermediário</span>
+                    <span class="text-[10px] md:text-xs text-white/50 block">Cel-Lep</span>
                   </div>
                 </div>
 
                 <!-- 3. Japonês -->
-                <div class="py-2.5 flex items-center justify-between gap-4 group/item">
-                  <div class="flex items-center gap-3">
-                    <span class="w-2.5 h-2.5 rounded-full bg-rose-400 shrink-0 shadow-[0_0_8px_rgba(251,113,133,0.6)]"></span>
-                    <span class="text-lg md:text-xl text-white font-bricolage font-semibold group-hover/item:text-rose-300 transition-colors">Japonês</span>
+                <div class="py-1.5 flex items-center justify-between gap-3 group/item">
+                  <div class="flex items-center gap-2.5">
+                    <span class="w-2 h-2 rounded-full bg-rose-400 shrink-0 shadow-[0_0_6px_rgba(251,113,133,0.6)]"></span>
+                    <span class="text-sm md:text-base text-white font-bricolage font-semibold group-hover/item:text-rose-300 transition-colors">Japonês</span>
                   </div>
                   <div class="text-right font-mono">
-                    <span class="text-sm md:text-base text-rose-300 font-semibold block">Introdutório 1 (A1)</span>
-                    <span class="text-xs md:text-sm text-white/50 block">Yume Idiomas · 36h</span>
+                    <span class="text-xs md:text-sm text-rose-300 font-semibold block">Introdutório 1 (A1)</span>
+                    <span class="text-[10px] md:text-xs text-white/50 block">Yume Idiomas · 36h</span>
                   </div>
                 </div>
 
                 <!-- 4. Espanhol -->
-                <div class="py-2.5 flex items-center justify-between gap-4 group/item">
-                  <div class="flex items-center gap-3">
-                    <span class="w-2.5 h-2.5 rounded-full bg-amber-400 shrink-0 shadow-[0_0_8px_rgba(251,191,36,0.6)]"></span>
-                    <span class="text-lg md:text-xl text-white font-bricolage font-semibold group-hover/item:text-amber-300 transition-colors">Espanhol</span>
+                <div class="py-1.5 flex items-center justify-between gap-3 group/item">
+                  <div class="flex items-center gap-2.5">
+                    <span class="w-2 h-2 rounded-full bg-amber-400 shrink-0 shadow-[0_0_6px_rgba(251,191,36,0.6)]"></span>
+                    <span class="text-sm md:text-base text-white font-bricolage font-semibold group-hover/item:text-amber-300 transition-colors">Espanhol</span>
                   </div>
                   <div class="text-right font-mono">
-                    <span class="text-sm md:text-base text-white/95 font-semibold block">Básico</span>
-                    <span class="text-xs md:text-sm text-white/50 block">Escola Vital Brazil</span>
+                    <span class="text-xs md:text-sm text-white/95 font-semibold block">Básico</span>
+                    <span class="text-[10px] md:text-xs text-white/50 block">Escola Vital Brazil</span>
                   </div>
                 </div>
 
                 <!-- 5. Francês -->
-                <div class="py-2.5 flex items-center justify-between gap-4 group/item">
-                  <div class="flex items-center gap-3">
-                    <span class="w-2.5 h-2.5 rounded-full bg-purple-400 shrink-0 shadow-[0_0_8px_rgba(192,132,252,0.6)]"></span>
-                    <span class="text-lg md:text-xl text-white font-bricolage font-semibold group-hover/item:text-purple-300 transition-colors">Francês</span>
+                <div class="py-1.5 flex items-center justify-between gap-3 group/item">
+                  <div class="flex items-center gap-2.5">
+                    <span class="w-2 h-2 rounded-full bg-purple-400 shrink-0 shadow-[0_0_6px_rgba(192,132,252,0.6)]"></span>
+                    <span class="text-sm md:text-base text-white font-bricolage font-semibold group-hover/item:text-purple-300 transition-colors">Francês</span>
                   </div>
                   <div class="text-right font-mono">
-                    <span class="text-sm md:text-base text-white/95 font-semibold block">Certificado DELF A1</span>
-                    <span class="text-xs md:text-sm text-white/50 block">France Éducation · Colégio Morumbi</span>
+                    <span class="text-xs md:text-sm text-white/95 font-semibold block">Certificado DELF A1</span>
+                    <span class="text-[10px] md:text-xs text-white/50 block">France Éducation · Colégio Morumbi</span>
                   </div>
                 </div>
               </div>
@@ -556,10 +572,10 @@
           <!-- Filtros de categoria -->
           <div class="relative flex flex-wrap gap-2 p-1.5 rounded-full bg-neutral-900/90 border border-white/10 backdrop-blur-xl animate-on-scroll delay-100">
             <button onclick="filterCerts('all')" id="cert-btn-all" class="cert-filter-btn px-4 py-2 rounded-full text-xs font-medium transition-all duration-300 bg-white text-neutral-950 shadow-md">
-              Todos (8)
+              Todos (4)
             </button>
             <button onclick="filterCerts('olimpiadas')" id="cert-btn-olimpiadas" class="cert-filter-btn px-4 py-2 rounded-full text-xs font-medium transition-all duration-300 text-white/60 hover:text-white hover:bg-white/5">
-              Olimpíadas & Medalhas (5)
+              Olimpíadas & Medalhas (1)
             </button>
             <button onclick="filterCerts('idiomas')" id="cert-btn-idiomas" class="cert-filter-btn px-4 py-2 rounded-full text-xs font-medium transition-all duration-300 text-white/60 hover:text-white hover:bg-white/5">
               Idiomas & Diplomas (2)
@@ -657,48 +673,7 @@
             </div>
           </div>
 
-          <!-- Card 3: 28ª OBA 2025 -->
-          <div class="cert-card group relative bg-neutral-900/70 border border-white/10 hover:border-emerald-500/40 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between" data-category="olimpiadas">
-            <div>
-              <div class="relative h-56 overflow-hidden bg-black/40 cursor-pointer" onclick="openCertModal('assets/images/certificados/certificado-oba-2025.jpg', '28ª Olimpíada Brasileira de Astronomia e Astronáutica (OBA 2025)', 'SAB & Agência Espacial Brasileira (AEB) · Colégio Nossa Senhora do Morumbi · 2025')">
-                <img src="assets/images/certificados/certificado-oba-2025.jpg" alt="Certificado 28ª OBA 2025" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 opacity-85 group-hover:opacity-100">
-                <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent"></div>
-                <div class="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white/80 group-hover:text-emerald-400 group-hover:border-emerald-400/50 transition-colors">
-                  <iconify-icon icon="solar:magnifer-linear" width="18"></iconify-icon>
-                </div>
-                <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider bg-blue-500/20 text-blue-300 border border-blue-500/30 backdrop-blur-md">
-                  Astronomia & Aero · 2025
-                </span>
-              </div>
-
-              <div class="p-6">
-                <div class="flex items-center gap-2 text-xs text-white/40 mb-2 font-mono">
-                  <span>SAB & Agência Espacial Brasileira</span>
-                  <span>·</span>
-                  <span>2025</span>
-                </div>
-                <h3 class="text-xl font-bricolage font-medium text-white mb-2 group-hover:text-emerald-300 transition-colors">
-                  28ª Olimpíada Brasileira de Astronomia (OBA)
-                </h3>
-                <p class="text-sm text-white/60 font-light leading-relaxed mb-4">
-                  Certificado oficial emitido pela Sociedade Astronômica Brasileira e Agência Espacial Brasileira pela participação presencial no Colégio N. Sra. do Morumbi.
-                </p>
-              </div>
-            </div>
-
-            <div class="p-6 pt-0 border-t border-white/5 flex items-center justify-between text-xs text-white/50">
-              <span class="flex items-center gap-1.5 text-blue-400/80">
-                <iconify-icon icon="solar:planet-bold-duotone" width="14"></iconify-icon>
-                Nacional Presencial · 2025
-              </span>
-              <button onclick="openCertModal('assets/images/certificados/certificado-oba-2025.jpg', '28ª Olimpíada Brasileira de Astronomia e Astronáutica (OBA 2025)', 'SAB & Agência Espacial Brasileira (AEB) · Colégio Nossa Senhora do Morumbi · 2025')" class="inline-flex items-center gap-1.5 text-white/80 hover:text-white transition-colors group/btn">
-                Ver completo
-                <iconify-icon icon="solar:arrow-right-linear" width="14" class="group-hover/btn:translate-x-1 transition-transform"></iconify-icon>
-              </button>
-            </div>
-          </div>
-
-          <!-- Card 4: Global Game Jam Next FECAP 2026 -->
+          <!-- Card 3: Global Game Jam Next FECAP 2026 -->
           <div class="cert-card group relative bg-neutral-900/70 border border-white/10 hover:border-emerald-500/40 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between" data-category="tech">
             <div>
               <div class="relative h-56 overflow-hidden bg-black/40 cursor-pointer" onclick="openCertModal('assets/images/certificados/certificado-gamejam-fecap-2026.jpg', 'Global Game Jam Next FECAP 2026', 'Colégio FECAP & Games for Change · 30 Horas · 2026')">
@@ -739,130 +714,7 @@
             </div>
           </div>
 
-          <!-- Card 5: 27ª OBA 2024 -->
-          <div class="cert-card group relative bg-neutral-900/70 border border-white/10 hover:border-emerald-500/40 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between" data-category="olimpiadas">
-            <div>
-              <div class="relative h-56 overflow-hidden bg-black/40 cursor-pointer" onclick="openCertModal('assets/images/certificados/certificado-oba-2024.jpg', '27ª Olimpíada Brasileira de Astronomia e Astronáutica (OBA)', 'SAB & Agência Espacial Brasileira (AEB) · 2024')">
-                <img src="assets/images/certificados/certificado-oba-2024.jpg" alt="Certificado 27ª OBA" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 opacity-85 group-hover:opacity-100">
-                <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent"></div>
-                <div class="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white/80 group-hover:text-emerald-400 group-hover:border-emerald-400/50 transition-colors">
-                  <iconify-icon icon="solar:magnifer-linear" width="18"></iconify-icon>
-                </div>
-                <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider bg-blue-500/20 text-blue-300 border border-blue-500/30 backdrop-blur-md">
-                  Astronomia & Aero · 2024
-                </span>
-              </div>
-
-              <div class="p-6">
-                <div class="flex items-center gap-2 text-xs text-white/40 mb-2 font-mono">
-                  <span>SAB & Agência Espacial Brasileira</span>
-                  <span>·</span>
-                  <span>2024</span>
-                </div>
-                <h3 class="text-xl font-bricolage font-medium text-white mb-2 group-hover:text-emerald-300 transition-colors">
-                  27ª Olimpíada Brasileira de Astronomia (OBA)
-                </h3>
-                <p class="text-sm text-white/60 font-light leading-relaxed mb-4">
-                  Certificado oficial emitido pela Sociedade Astronômica Brasileira e Agência Espacial Brasileira pela participação na modalidade presencial.
-                </p>
-              </div>
-            </div>
-
-            <div class="p-6 pt-0 border-t border-white/5 flex items-center justify-between text-xs text-white/50">
-              <span class="flex items-center gap-1.5 text-blue-400/80">
-                <iconify-icon icon="solar:planet-bold-duotone" width="14"></iconify-icon>
-                Nacional Presencial · 2024
-              </span>
-              <button onclick="openCertModal('assets/images/certificados/certificado-oba-2024.jpg', '27ª Olimpíada Brasileira de Astronomia e Astronáutica (OBA)', 'SAB & Agência Espacial Brasileira (AEB) · 2024')" class="inline-flex items-center gap-1.5 text-white/80 hover:text-white transition-colors group/btn">
-                Ver completo
-                <iconify-icon icon="solar:arrow-right-linear" width="14" class="group-hover/btn:translate-x-1 transition-transform"></iconify-icon>
-              </button>
-            </div>
-          </div>
-
-          <!-- Card 6: ONC 2024 -->
-          <div class="cert-card group relative bg-neutral-900/70 border border-white/10 hover:border-emerald-500/40 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between" data-category="olimpiadas">
-            <div>
-              <div class="relative h-56 overflow-hidden bg-black/40 cursor-pointer" onclick="openCertModal('assets/images/certificados/certificado-onc-2024.jpg', 'Olimpíada Nacional de Ciências 2024 (ONC)', 'Ministério da Ciência, Tecnologia e Inovações (MCTI) · 2024')">
-                <img src="assets/images/certificados/certificado-onc-2024.jpg" alt="Certificado ONC 2024" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 opacity-85 group-hover:opacity-100">
-                <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent"></div>
-                <div class="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white/80 group-hover:text-emerald-400 group-hover:border-emerald-400/50 transition-colors">
-                  <iconify-icon icon="solar:magnifer-linear" width="18"></iconify-icon>
-                </div>
-                <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 backdrop-blur-md">
-                  Ciências & MCTI
-                </span>
-              </div>
-
-              <div class="p-6">
-                <div class="flex items-center gap-2 text-xs text-white/40 mb-2 font-mono">
-                  <span>MCTI & UFPI</span>
-                  <span>·</span>
-                  <span>2024</span>
-                </div>
-                <h3 class="text-xl font-bricolage font-medium text-white mb-2 group-hover:text-emerald-300 transition-colors">
-                  Olimpíada Nacional de Ciências (ONC)
-                </h3>
-                <p class="text-sm text-white/60 font-light leading-relaxed mb-4">
-                  Certificado de participação concedido pelo Ministério da Ciência, Tecnologia e Inovações e Pró-Reitoria de Extensão da UFPI.
-                </p>
-              </div>
-            </div>
-
-            <div class="p-6 pt-0 border-t border-white/5 flex items-center justify-between text-xs text-white/50">
-              <span class="flex items-center gap-1.5 text-emerald-400/80">
-                <iconify-icon icon="solar:atom-linear" width="14"></iconify-icon>
-                Código OKLF1XPB
-              </span>
-              <button onclick="openCertModal('assets/images/certificados/certificado-onc-2024.jpg', 'Olimpíada Nacional de Ciências 2024 (ONC)', 'Ministério da Ciência, Tecnologia e Inovações (MCTI) · 2024')" class="inline-flex items-center gap-1.5 text-white/80 hover:text-white transition-colors group/btn">
-                Ver completo
-                <iconify-icon icon="solar:arrow-right-linear" width="14" class="group-hover/btn:translate-x-1 transition-transform"></iconify-icon>
-              </button>
-            </div>
-          </div>
-
-          <!-- Card 7: Canguru de Matemática 2025 -->
-          <div class="cert-card group relative bg-neutral-900/70 border border-white/10 hover:border-emerald-500/40 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between" data-category="olimpiadas">
-            <div>
-              <div class="relative h-56 overflow-hidden bg-black/40 cursor-pointer" onclick="openCertModal('assets/images/certificados/certificado-canguru-matematica-2025.jpg', 'Concurso Canguru de Matemática Brasil 2025', 'Association Kangourou sans Frontières & UpMat · 2025')">
-                <img src="assets/images/certificados/certificado-canguru-matematica-2025.jpg" alt="Canguru de Matemática Brasil 2025" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 opacity-85 group-hover:opacity-100">
-                <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent"></div>
-                <div class="absolute top-4 right-4 w-9 h-9 rounded-full bg-black/60 backdrop-blur-md border border-white/20 flex items-center justify-center text-white/80 group-hover:text-emerald-400 group-hover:border-emerald-400/50 transition-colors">
-                  <iconify-icon icon="solar:magnifer-linear" width="18"></iconify-icon>
-                </div>
-                <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] font-mono uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/30 backdrop-blur-md">
-                  Matemática Internacional
-                </span>
-              </div>
-
-              <div class="p-6">
-                <div class="flex items-center gap-2 text-xs text-white/40 mb-2 font-mono">
-                  <span>Canguru sem Fronteiras</span>
-                  <span>·</span>
-                  <span>2025</span>
-                </div>
-                <h3 class="text-xl font-bricolage font-medium text-white mb-2 group-hover:text-emerald-300 transition-colors">
-                  Canguru de Matemática Brasil 2025
-                </h3>
-                <p class="text-sm text-white/60 font-light leading-relaxed mb-4">
-                  Certificado de participação na maior competição internacional de matemática para estudantes do mundo, avaliando raciocínio lógico e resolução de problemas.
-                </p>
-              </div>
-            </div>
-
-            <div class="p-6 pt-0 border-t border-white/5 flex items-center justify-between text-xs text-white/50">
-              <span class="flex items-center gap-1.5 text-amber-400/80">
-                <iconify-icon icon="solar:ruler-angular-linear" width="14"></iconify-icon>
-                Internacional
-              </span>
-              <button onclick="openCertModal('assets/images/certificados/certificado-canguru-matematica-2025.jpg', 'Concurso Canguru de Matemática Brasil 2025', 'Association Kangourou sans Frontières & UpMat · 2025')" class="inline-flex items-center gap-1.5 text-white/80 hover:text-white transition-colors group/btn">
-                Ver completo
-                <iconify-icon icon="solar:arrow-right-linear" width="14" class="group-hover/btn:translate-x-1 transition-transform"></iconify-icon>
-              </button>
-            </div>
-          </div>
-
-          <!-- Card 8: Língua Japonesa - Yume Idiomas -->
+          <!-- Card 4: Língua Japonesa - Yume Idiomas -->
           <div class="cert-card group relative bg-neutral-900/70 border border-white/10 hover:border-emerald-500/40 rounded-3xl overflow-hidden transition-all duration-500 hover:-translate-y-1.5 shadow-xl flex flex-col justify-between" data-category="idiomas">
             <div>
               <div class="relative h-56 overflow-hidden bg-black/40 cursor-pointer" onclick="openCertModal('assets/images/certificados/certificado-japones-yume-2025.jpg', 'Curso de Língua Japonesa — Introdutório 1 (Nível A1)', 'Yume Escola de Idiomas · 36 Horas · 2025')">
@@ -1060,47 +912,7 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <!-- Card 1: Francês -->
-          <div class="group grid grid-cols-1 md:grid-cols-12 gap-6 items-center p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-emerald-500/30 rounded-2xl transition-all duration-300 animate-on-scroll">
-            <div class="col-span-1 md:col-span-4 flex items-center gap-5">
-              <div class="w-16 h-16 md:w-20 md:h-20 bg-neutral-900 border border-white/10 rounded-2xl shrink-0 flex items-center justify-center text-emerald-400 group-hover:scale-105 group-hover:border-emerald-500/40 transition-all">
-                <iconify-icon icon="solar:global-linear" width="34"></iconify-icon>
-              </div>
-              <div>
-                <h4 class="text-xl md:text-2xl text-white font-bricolage font-medium">
-                  Francês
-                </h4>
-                <p class="text-xs text-emerald-400 font-mono uppercase tracking-wider mt-0.5">
-                  Certificado DELF A1
-                </p>
-              </div>
-            </div>
-
-            <div class="col-span-1 md:col-span-6 grid grid-cols-2 gap-4 border-l border-white/10 pl-6">
-              <div class="flex flex-col gap-1">
-                <div class="flex items-center gap-1.5 text-white/50 text-xs font-mono uppercase tracking-wide">
-                  <iconify-icon icon="solar:map-point-linear" width="14"></iconify-icon>
-                  Onde aprendi
-                </div>
-                <span class="text-white text-base font-medium">NSM</span>
-              </div>
-              <div class="flex flex-col gap-1">
-                <div class="flex items-center gap-1.5 text-white/50 text-xs font-mono uppercase tracking-wide">
-                  <iconify-icon icon="solar:calendar-linear" width="14"></iconify-icon>
-                  Ano
-                </div>
-                <span class="text-white text-base font-medium">2025</span>
-              </div>
-            </div>
-
-            <div class="col-span-1 md:col-span-2 flex items-center justify-start md:justify-end">
-              <span class="px-3.5 py-1.5 rounded-full text-xs font-mono uppercase tracking-wider bg-white/5 text-white/80 border border-white/10 group-hover:border-emerald-500/30 transition-colors">
-                Idioma
-              </span>
-            </div>
-          </div>
-
-          <!-- Card 2: Python (Básico) -->
+          <!-- Card 1: Python (Básico) -->
           <div class="group grid grid-cols-1 md:grid-cols-12 gap-6 items-center p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-blue-500/30 rounded-2xl transition-all duration-300 animate-on-scroll">
             <div class="col-span-1 md:col-span-4 flex items-center gap-5">
               <div class="w-16 h-16 md:w-20 md:h-20 bg-neutral-900 border border-white/10 rounded-2xl shrink-0 flex items-center justify-center text-blue-400 group-hover:scale-105 group-hover:border-blue-500/40 transition-all">
@@ -1140,7 +952,7 @@
             </div>
           </div>
 
-          <!-- Card 3: Proatividade -->
+          <!-- Card 2: Proatividade -->
           <div class="group grid grid-cols-1 md:grid-cols-12 gap-6 items-center p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-amber-500/30 rounded-2xl transition-all duration-300 animate-on-scroll">
             <div class="col-span-1 md:col-span-4 flex items-center gap-5">
               <div class="w-16 h-16 md:w-20 md:h-20 bg-neutral-900 border border-white/10 rounded-2xl shrink-0 flex items-center justify-center text-amber-400 group-hover:scale-105 group-hover:border-amber-500/40 transition-all">
@@ -1173,7 +985,7 @@
             </div>
           </div>
 
-          <!-- Card 4: Dedicação -->
+          <!-- Card 3: Dedicação -->
           <div class="group grid grid-cols-1 md:grid-cols-12 gap-6 items-center p-6 bg-white/5 hover:bg-white/10 border border-white/5 hover:border-purple-500/30 rounded-2xl transition-all duration-300 animate-on-scroll">
             <div class="col-span-1 md:col-span-4 flex items-center gap-5">
               <div class="w-16 h-16 md:w-20 md:h-20 bg-neutral-900 border border-white/10 rounded-2xl shrink-0 flex items-center justify-center text-purple-400 group-hover:scale-105 group-hover:border-purple-500/40 transition-all">
