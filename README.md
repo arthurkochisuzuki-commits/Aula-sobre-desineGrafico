@@ -84,7 +84,7 @@ O arquivo `index.html` agora está todo comentado em português para facilitar a
    - Fluxo de trabalho e boas práticas que você segue.
 
 8. **Ferramentas (`<!-- 8. FERRAMENTAS QUE UTILIZO -->`)**:
-   - Cards elegantes com as ferramentas utilizadas: *Pacote Office, Gemini, Antigravity, Copilot, Canva, PowerPoint, NotebookLM, GitHub, GitHub Desktop*.
+   - Cards elegantes com as ferramentas utilizadas: *Pacote Office, Gemini, Antigravity, Copilot, Canva, PowerPoint, NotebookLM, GitHub, GitHub Desktop, Netlify*.
 
 9. **Contato (`<!-- 9. CONTATO & REDES PROFISSIONAIS -->`)**:
    - Cards clicáveis integrados com seus canais reais:
